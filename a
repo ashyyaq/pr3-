@@ -1,0 +1,20 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+setlocale(LC_ALL, "RUS");
+double arr[3][5];
+cout << "Введите элементы двумерного массива 3х5:\n";
+for (int i = 0; i < 3; ++i) {
+cout<<"Введите элементы строки * << i + 1 << "5 элементов: for (int j = 0; j < 5; ++j) { cin >> arr[i][j];
+double avg[3];
+for (int i = 0; i < 3; ++i) {
+double sum = 0;
+for (int j = 0; j < 5; ++j) {
+}
+sum += arr[i][j];
+avg[i] = sum / 5;
+cout << "Средние арифметические элементов строк:\n";
+for (int i = 0; i < 3; ++i) {
+cout << "Среднее значение строки" << i + 1 << "; " << avg[i] << endl;
+return 0;
